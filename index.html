@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag Drop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body class="container">
+    <header>
+        <h1>Align The Animals</h1>
+    </header>
+    <div class="drag-container">
+        <div class="draggable" draggable="true" data-correct="cat"><img src="1.jpeg"></div>
+        <div class="draggable" draggable="true" data-correct="frog"><img src="2.jpeg"></div>
+        <div class="draggable" draggable="true" data-correct="dog"><img src="3.jpeg"></div>
+        <div class="draggable" draggable="true" data-correct="fox"><img src="4.jpeg"></div>
+        <div class="draggable" draggable="true" data-correct="duck"><img src="5.jpeg"></div>
+        <div class="draggable" draggable="true" data-correct="chicken"><img src="6.jpeg"></div>
+        <div class="draggable" draggable="true" data-correct="lion"><img src="7.jpeg"></div>
+        <div class="draggable" draggable="true" data-correct="monkey"><img src="8.jpeg"></div>
+        <div class="draggable" draggable="true" data-correct="bunny"><img src="9.jpeg"></div>
+        <div class="draggable" draggable="true" data-correct="bird"><img src="10.jpeg"></div>
+    </div>
+    <div class="drop-container">
+        <div class="drop-target" data-correct="dog"><p>dog</p></div>
+        <div class="drop-target" data-correct="monkey"><p>monkey</p></div>
+        <div class="drop-target" data-correct="cat"><p>cat</p></div>
+        <div class="drop-target" data-correct="duck"><p>duck</p></div>
+        <div class="drop-target" data-correct="bunny"><p>bunny</p></div>
+        <div class="drop-target" data-correct="frog"><p>frog</p></div>
+        <div class="drop-target" data-correct="bird"><p>bird</p></div>
+        <div class="drop-target" data-correct="lion"><p>lion</p></div>
+        <div class="drop-target" data-correct="fox"><p>fox</p></div>
+        <div class="drop-target" data-correct="chicken"><p>chicken</p></div>
+        
+    </div>
+    <div class="board">Remarks:<p id="remarks"></p>
+      Total Score:<p id="scores"></p>
+      </div>
+</body>
+</html>
